@@ -1,11 +1,11 @@
-.main-nav{
+.main-nav {
   position: relative;
   width: auto;
   min-height: 51px;
   background-color: #826550;
 
   @media (min-width: $tablet-width) {
-    background-color:#000000;
+    background-color: #000000;
   }
 }
 
@@ -129,7 +129,7 @@
     background-color: #ffffff;
   }
 
-  &::before{
+  &::before {
     transform: rotate(45deg);
     box-shadow: none;
   }
@@ -150,7 +150,7 @@
   list-style: none;
 }
 
-.main-nav__list a{
+.main-nav__list a {
   color: #ffffff;
 }
 
@@ -167,4 +167,3 @@
     display: none;
   }
 }
-

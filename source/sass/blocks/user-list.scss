@@ -2,6 +2,7 @@
   @media (min-width: $tablet-width) {
     width: 60px;
   }
+
   @media (min-width: $desktop-width) {
     width: auto;
     max-width: 160px;
@@ -65,9 +66,9 @@
     }
 
     &:hover {
-      color:#000000;
+      color: #000000;
 
-      background-color:#ffffff;
+      background-color: #ffffff;
     }
 
     &:active {
@@ -91,7 +92,7 @@
         fill: #000000;
       }
     }
-}
+  }
 }
 
 
@@ -109,4 +110,3 @@
     left: 12px;
   }
 }
-
